@@ -12,27 +12,29 @@
   <div class="container">
  <div id="outer-clock">
   <div class="numbers" style="transform: rotate(0deg) translateY(-26vh);"><span>12</span></div>
-  <div class="numbers" style="transform: rotate(30deg) translateY(-26vh);"><span>1</span></div>
-  <div class="numbers" style="transform: rotate(60deg) translateY(-26vh);"><span>2</span></div>
-  <div class="numbers" style="transform: rotate(90deg) translateY(-26vh);"><span style="transform:rotate(-90deg) ;display:inline-block">3</span></div>
-  <div class="numbers" style="transform: rotate(120deg) translateY(-26vh);"><span style="transform:rotate(-120deg) ;display:inline-block">4</span></div>
-  <div class="numbers" style="transform: rotate(150deg) translateY(-26vh);"><span style="transform:rotate(180deg) ;display:inline-block">5</span></div>
+  <div class="numbers" style="transform: rotate(30deg) translateY(-26vh);"><span style="transform:rotate(-20deg);display:inline-block">1</span></div>
+  <div class="numbers" style="transform: rotate(60deg) translateY(-26vh);"><span style="transform:rotate(-60deg);display:inline-block">2</span></div>
+  <div class="numbers" style="transform: rotate(90deg) translateY(-26vh);"><span style="transform:rotate(-90deg);display:inline-block">3</span></div>
+  <div class="numbers" style="transform: rotate(120deg) translateY(-26vh);"><span style="transform:rotate(-120deg);display:inline-block">4</span></div>
+  <div class="numbers" style="transform: rotate(150deg) translateY(-26vh);"><span style="transform:rotate(180deg);display:inline-block">5</span></div>
   <div class="numbers" style="transform: rotate(180deg) translateY(-26vh);"><span style="transform:rotate(180deg); display:inline-block">6</span></div>
-  <div class="numbers" style="transform: rotate(210deg) translateY(-26vh);"><span style="transform:rotate(170deg) ;display:inline-block">7</span></div>
-  <div class="numbers" style="transform: rotate(240deg) translateY(-26vh);"><span style="transform:rotate(-20deg) ;display:inline-block">8</span></div>
-  <div class="numbers" style="transform: rotate(270deg) translateY(-26vh);"><span style="transform:rotate(80deg) ;display:inline-block">9</span></div>
+  <div class="numbers" style="transform: rotate(210deg) translateY(-26vh);"><span style="transform:rotate(170deg);display:inline-block">7</span></div>
+  <div class="numbers" style="transform: rotate(240deg) translateY(-26vh);"><span style="transform:rotate(-240deg);display:inline-block">8</span></div>
+  <div class="numbers" style="transform: rotate(270deg) translateY(-26vh);"><span style="transform:rotate(80deg);display:inline-block">9</span></div>
   <div class="numbers" style="transform: rotate(300deg) translateY(-26vh);"><span>10</span></div>
   <div class="numbers" style="transform: rotate(330deg) translateY(-26vh);"><span>11</span></div> 
 
   <div id="inner-clock">
-    <div id="center-pointer">.</div>
-    <div id="hour"></div>
-    <div id="minute"></div>
-    <div id="second"></div>
+    <div id="center-pointer"></div>
+    <div id="hour" class="hand"></div>
+    <div id="minute" class="hand"></div>
+    <div id="second" class="hand"></div>
+    <span id="real" style="margin-bottom:8vmin;">Real Time</span>
+    <div id="made">made by rohit</div>
   </div>
 </div>
 
   </div>
 </body>
-
+<script src="index.js"></script>
 </html>
